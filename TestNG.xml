@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+    <test name="twitterLoginTest" thread-count="1">
+        <classes>
+            <class name="com.twitter.tests.LoginTest"/>
+        </classes>
+    </test>
+  <test name="sendTweetPrimary" thread-count="1">
+        <classes>
+            <class name="com.twitter.tests.AddTweetTest1"/>
+        </classes>
+    </test>
+    <test name="sendTweetSidebar" thread-count="1">
+        <classes>
+            <class name="com.twitter.tests.AddTweetTest2"/>
+        </classes>
+    </test>
+    <test name="deleteTweetFromPrimaryColumn" thread-count="1">
+        <classes>
+            <class name="com.twitter.tests.DeleteTweetTest1"/>
+        </classes>
+    </test>
+    <test name="deleteTweetFromProfileSite" thread-count="1">
+        <classes>
+            <class name="com.twitter.tests.DeleteTweetTest2"/>
+        </classes>
+    </test>
+    <test name="followFromSearchBoxTest" thread-count="1">
+        <classes>
+            <class name="com.twitter.tests.FollowTest1"/>
+        </classes>
+    </test>
+    <test name="unfollowFromSearchBoxTest" thread-count="1">
+        <classes>
+            <class name="com.twitter.tests.FollowTest2"/>
+        </classes>
+    </test>
+</suite>

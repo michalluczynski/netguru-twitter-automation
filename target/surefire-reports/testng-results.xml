@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-12T17:58:59 CEST" name="Suite" finished-at="2019-08-12T17:59:59 CEST" duration-ms="59939">
+    <groups>
+    </groups>
+    <test started-at="2019-08-12T17:58:59 CEST" name="twitterLoginTest" finished-at="2019-08-12T17:59:07 CEST" duration-ms="7970">
+      <class name="com.twitter.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.twitter.tests.LoginTest@101df177]" started-at="2019-08-12T17:58:59 CEST" name="setUp" finished-at="2019-08-12T17:59:03 CEST" duration-ms="3838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="twitterLoginTest()[pri:0, instance:com.twitter.tests.LoginTest@101df177]" started-at="2019-08-12T17:59:03 CEST" name="twitterLoginTest" finished-at="2019-08-12T17:59:06 CEST" duration-ms="3458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twitter.tests.LoginTest@101df177]" started-at="2019-08-12T17:59:06 CEST" name="tearDown" finished-at="2019-08-12T17:59:07 CEST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.tests.LoginTest -->
+    </test> <!-- twitterLoginTest -->
+    <test started-at="2019-08-12T17:59:07 CEST" name="sendTweetPrimary" finished-at="2019-08-12T17:59:15 CEST" duration-ms="7762">
+      <class name="com.twitter.tests.AddTweetTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.twitter.tests.AddTweetTest1@62fdb4a6]" started-at="2019-08-12T17:59:07 CEST" name="setUp" finished-at="2019-08-12T17:59:11 CEST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sendTweetPrimary()[pri:0, instance:com.twitter.tests.AddTweetTest1@62fdb4a6]" started-at="2019-08-12T17:59:11 CEST" name="sendTweetPrimary" finished-at="2019-08-12T17:59:14 CEST" duration-ms="3633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendTweetPrimary -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twitter.tests.AddTweetTest1@62fdb4a6]" started-at="2019-08-12T17:59:14 CEST" name="tearDown" finished-at="2019-08-12T17:59:15 CEST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.tests.AddTweetTest1 -->
+    </test> <!-- sendTweetPrimary -->
+    <test started-at="2019-08-12T17:59:15 CEST" name="sendTweetSidebar" finished-at="2019-08-12T17:59:22 CEST" duration-ms="7387">
+      <class name="com.twitter.tests.AddTweetTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.twitter.tests.AddTweetTest2@120d6fe6]" started-at="2019-08-12T17:59:15 CEST" name="setUp" finished-at="2019-08-12T17:59:18 CEST" duration-ms="3424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sendTweetSidebar()[pri:0, instance:com.twitter.tests.AddTweetTest2@120d6fe6]" started-at="2019-08-12T17:59:18 CEST" name="sendTweetSidebar" finished-at="2019-08-12T17:59:22 CEST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendTweetSidebar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twitter.tests.AddTweetTest2@120d6fe6]" started-at="2019-08-12T17:59:22 CEST" name="tearDown" finished-at="2019-08-12T17:59:22 CEST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.tests.AddTweetTest2 -->
+    </test> <!-- sendTweetSidebar -->
+    <test started-at="2019-08-12T17:59:22 CEST" name="deleteTweetFromPrimaryColumn" finished-at="2019-08-12T17:59:30 CEST" duration-ms="7469">
+      <class name="com.twitter.tests.DeleteTweetTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.twitter.tests.DeleteTweetTest1@5606c0b]" started-at="2019-08-12T17:59:22 CEST" name="setUp" finished-at="2019-08-12T17:59:26 CEST" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteTweetFromPrimaryColumn()[pri:0, instance:com.twitter.tests.DeleteTweetTest1@5606c0b]" started-at="2019-08-12T17:59:26 CEST" name="deleteTweetFromPrimaryColumn" finished-at="2019-08-12T17:59:29 CEST" duration-ms="3639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweetFromPrimaryColumn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twitter.tests.DeleteTweetTest1@5606c0b]" started-at="2019-08-12T17:59:29 CEST" name="tearDown" finished-at="2019-08-12T17:59:30 CEST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.tests.DeleteTweetTest1 -->
+    </test> <!-- deleteTweetFromPrimaryColumn -->
+    <test started-at="2019-08-12T17:59:30 CEST" name="deleteTweetFromProfileSite" finished-at="2019-08-12T17:59:38 CEST" duration-ms="7960">
+      <class name="com.twitter.tests.DeleteTweetTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.twitter.tests.DeleteTweetTest2@6b67034]" started-at="2019-08-12T17:59:30 CEST" name="setUp" finished-at="2019-08-12T17:59:33 CEST" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteTweetFromProfileSite()[pri:0, instance:com.twitter.tests.DeleteTweetTest2@6b67034]" started-at="2019-08-12T17:59:33 CEST" name="deleteTweetFromProfileSite" finished-at="2019-08-12T17:59:37 CEST" duration-ms="4065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweetFromProfileSite -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twitter.tests.DeleteTweetTest2@6b67034]" started-at="2019-08-12T17:59:37 CEST" name="tearDown" finished-at="2019-08-12T17:59:38 CEST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.tests.DeleteTweetTest2 -->
+    </test> <!-- deleteTweetFromProfileSite -->
+    <test started-at="2019-08-12T17:59:38 CEST" name="followFromSearchBoxTest" finished-at="2019-08-12T17:59:49 CEST" duration-ms="10729">
+      <class name="com.twitter.tests.FollowTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.twitter.tests.FollowTest1@6b0c2d26]" started-at="2019-08-12T17:59:38 CEST" name="setUp" finished-at="2019-08-12T17:59:41 CEST" duration-ms="3215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="followFromSearchBoxTest()[pri:0, instance:com.twitter.tests.FollowTest1@6b0c2d26]" started-at="2019-08-12T17:59:41 CEST" name="followFromSearchBoxTest" finished-at="2019-08-12T17:59:48 CEST" duration-ms="6618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followFromSearchBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twitter.tests.FollowTest1@6b0c2d26]" started-at="2019-08-12T17:59:48 CEST" name="tearDown" finished-at="2019-08-12T17:59:49 CEST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.tests.FollowTest1 -->
+    </test> <!-- followFromSearchBoxTest -->
+    <test started-at="2019-08-12T17:59:49 CEST" name="unfollowFromSearchBoxTest" finished-at="2019-08-12T17:59:59 CEST" duration-ms="10370">
+      <class name="com.twitter.tests.FollowTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.twitter.tests.FollowTest2@38364841]" started-at="2019-08-12T17:59:49 CEST" name="setUp" finished-at="2019-08-12T17:59:52 CEST" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unfollowFromSearchBoxTest()[pri:0, instance:com.twitter.tests.FollowTest2@38364841]" started-at="2019-08-12T17:59:52 CEST" name="unfollowFromSearchBoxTest" finished-at="2019-08-12T17:59:58 CEST" duration-ms="6403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unfollowFromSearchBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twitter.tests.FollowTest2@38364841]" started-at="2019-08-12T17:59:58 CEST" name="tearDown" finished-at="2019-08-12T17:59:59 CEST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.twitter.tests.FollowTest2 -->
+    </test> <!-- unfollowFromSearchBoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

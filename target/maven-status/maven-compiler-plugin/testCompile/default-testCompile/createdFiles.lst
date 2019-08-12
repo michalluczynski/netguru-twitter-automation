@@ -1,0 +1,10 @@
+com\twitter\tests\LoginTest.class
+com\twitter\pages\HomePage.class
+com\twitter\pages\LoginPage.class
+com\twitter\tests\DeleteTweetTest2.class
+com\twitter\tests\FollowTest2.class
+com\twitter\tests\BaseSeleniumTests.class
+com\twitter\tests\AddTweetTest1.class
+com\twitter\tests\AddTweetTest2.class
+com\twitter\tests\DeleteTweetTest1.class
+com\twitter\tests\FollowTest1.class
